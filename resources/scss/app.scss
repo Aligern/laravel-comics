@@ -1,5 +1,48 @@
 @import '~bootstrap/scss/bootstrap';
 
-#box { 
+header {
+    background-color: #FFFFFF;
+        ul{
+        list-style-type: none;
+        display: flex;
+}
+        li {
+            padding: 6px;
+            a{
+                border-bottom: 3px solid transparent;
+                text-decoration: none;
+                color: black;
+                font-weight: 700;
+            }
+}
+a:hover {
+    color: #0282F9;
+    border-bottom: 3px solid #0282F9;
+}
+}
+
+
+#footerTop {
     background-color: #0282F9;
+    display: flex;
+    height: 150px;
+    div {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    #box {
+        align-items: center;
+        img {
+            width: 55px;
+            height: 58px;
+            display: block;
+            padding: 6px;
+        }
+        a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    }
+}
 }
