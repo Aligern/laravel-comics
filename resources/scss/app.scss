@@ -46,3 +46,36 @@ a:hover {
     }
 }
 }
+
+
+#footerMid {
+    background-image: url('./img/footer-bg.jpg');
+    background-size: cover;
+    ul {
+        list-style-type: none;
+        li {
+            a {
+                text-decoration: none;
+                color: rgb(136, 135, 135);
+                font-weight: 600;
+            }
+        }
+    }
+    #left {
+        padding-top: 20px;
+        width: 50%;
+    }
+    #right {
+        background-image: url('./img/dc-logo-bg.png');
+        width: 50%;
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+    a:hover{
+        color: white;
+    }
+    #title {
+        font-weight: 700;
+    }
+}
