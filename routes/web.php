@@ -17,5 +17,6 @@ Route::get('/', function () {
     $links = config('nav-links');
     $footerLinks = config('footerLogos');
     $footerMidLink = config('footerMidList');
-    return view('Home', compact('links','footerLinks','footerMidLink'));
+    $footerBot = config('footerBotImg');
+    return view('Home', compact('links','footerLinks','footerMidLink','footerBot'));
 });

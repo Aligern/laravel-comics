@@ -26,6 +26,7 @@
 
     @include('partials.footerTop')
     @include('partials.footerMid')
+    @include('partials.footerBot')
 </body>
 
 </html>
